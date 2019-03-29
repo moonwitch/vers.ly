@@ -1,0 +1,30 @@
+{
+  "name": "vers.ly",
+  "version": "0.0.1",
+  "description": "POC - stock management, menu planner, children database for a day care center.",
+  "main": "main.js",
+  "scripts": {
+    "test": "express ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonwitch/vers.ly.git"
+  },
+  "keywords": [
+    "POC",
+    "daycare",
+    "planner",
+    "db"
+  ],
+  "author": "Kelly Crabbé",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/moonwitch/vers.ly/issues"
+  },
+  "homepage": "https://github.com/moonwitch/vers.ly#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.20"
+  }
+}
